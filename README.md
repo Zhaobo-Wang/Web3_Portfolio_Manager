@@ -10,7 +10,7 @@ The Web3 Portfolio Manager is a application built with React and ethers.js. This
 ### 1. Wallet Connection
 
 **Description:**  
-The wallet connection functionality is a crucial part of this dApp. It allows users to connect their MetaMask wallet to the application securely. Once connected, the user's wallet address is displayed, and they can interact with other features of the app.
+The wallet connection functionality is a crucial part of this App. It allows users to connect their MetaMask wallet to the application securely. Once connected, the user's wallet address is displayed, and they can interact with other features of the app.
 
 **Key Points:**
 - **MetaMask Integration:** The application uses MetaMask for connecting to the Ethereum network.
