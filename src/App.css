@@ -1,0 +1,145 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4a90e2;
+  text-align: center;
+  margin-top: 0;
+}
+
+.wallet-connect {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.balances,
+.transaction {
+  width: 100%;
+}
+
+.connected-account {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.connected-account span {
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+button {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ff4757;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #ff6b6b80;
+  cursor: not-allowed;
+}
+
+input,
+select {
+  width: 90%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transaction p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  input,
+  select {
+    font-size: 12px;
+  }
+}
