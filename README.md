@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Web3 Portfolio Manager is a decentralized application (dApp) built with React and ethers.js. This project enables users to connect their MetaMask wallet, view balances of popular assets (ETH, USDC, USDT), and execute transactions directly on the Ethereum blockchain. The project is designed to offer a seamless and user-friendly experience with robust error handling and responsive design.
+The Web3 Portfolio Manager is a application built with React and ethers.js. This project enables users to connect their MetaMask wallet, view balances of popular assets (ETH, USDC, USDT), and execute transactions directly on the Ethereum blockchain. The project is designed to offer a seamless and user-friendly experience with robust error handling and responsive design.
 
 ## Features
 
